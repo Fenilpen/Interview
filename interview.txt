@@ -1,0 +1,16 @@
+// here is series of questions and answers 
+
+Q1/
+What is JSX ?
+JSX is syntex extension for javascript used in react. it lets you to write HTML-like code inside 
+javascript. react official documentation refers to JSX as a "syntex extension for javascript language"
+
+Q2/
+Transpilation v/s Compilation
+Transpilation: converting code from one version of a language to another 
+(like JSX to JS, or ES6 to ES5)
+
+Q3/
+What is Babel?
+A javascript transpiler that transforms JS/JSX into a form that browsers can understand
+(usually older javascript)
