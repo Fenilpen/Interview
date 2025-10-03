@@ -9,6 +9,8 @@ Q2/
 Transpilation v/s Compilation
 Transpilation: converting code from one version of a language to another 
 (like JSX to JS, or ES6 to ES5)
+Compilation: converting human-readable code into optimized, often lower-level code
+(eg., bundling, minifying).
 
 Q3/
 What is Babel?
