@@ -31,3 +31,7 @@ Bundler Compilation (webpack,Vite,etc)
 The transpiled files are bundled into a single/minified JS file. this step is
 closer to Compilation since your project is being turned into something executable 
 by the browser.
+
+Browser Execution
+React.createElement creates virtual DOM objects. React reconciler diffs the.
+React DOM undates the real DOM.
