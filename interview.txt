@@ -22,3 +22,12 @@ What happens with JSX behind the scene?
 Babel Transpiles JSX -> React.createElement:
 Babel plugin (@babel/preset-react) converts JSX into pure JS, this is transpilation because 
 JSX is just syntactic sugar for function calls not a newlanguage.
+
+Babel Transpiles ES6 -> ES5
+if you used modern JS fetures, Babel also converts that into older JavaScript
+for compatibility.
+
+Bundler Compilation (webpack,Vite,etc)
+The transpiled files are bundled into a single/minified JS file. this step is
+closer to Compilation since your project is being turned into something executable 
+by the browser.
