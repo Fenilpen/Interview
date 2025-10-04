@@ -16,3 +16,9 @@ Q3/
 What is Babel?
 A javascript transpiler that transforms JS/JSX into a form that browsers can understand
 (usually older javascript)
+
+Q4/
+What happens with JSX behind the scene?
+Babel Transpiles JSX -> React.createElement:
+Babel plugin (@babel/preset-react) converts JSX into pure JS, this is transpilation because 
+JSX is just syntactic sugar for function calls not a newlanguage.
