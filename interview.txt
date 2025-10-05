@@ -35,3 +35,17 @@ by the browser.
 Browser Execution
 React.createElement creates virtual DOM objects. React reconciler diffs the.
 React DOM undates the real DOM.
+
+Q5/
+why we use double curly braces in style attribute?
+since JSX is inline style is an object and not a string.
+the first pair indicates you are embedding a javascript
+expression inside JSX. the second pair is the object itself 
+style={{color:"blue"}}
+
+Q6/
+why we need to use classname, htmlFor instead of class and for in JSX?
+Since JSX is ultimately compiled into javascript and we all know that
+"class" and "for" are reseved keywords in javascript. so it would create naming conflicts
+and leads to errors when the JSX  compiled into javascript. that is why classname & htmlFor
+is used as sn alternative to avoid conflicts.
