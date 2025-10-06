@@ -60,3 +60,7 @@ React.createElement("h1",{classname:"title"},"hello");
 so, classname in jsx is a prop not a raw attribute. but react uses it to set the actual HTML
 attribute class on the DOM element.
 
+Q8/
+JSX doesn't support loop like "for", but we can use "map". why?
+"for" is a statement, produces no value => JSX can't directly use it.
+"map" is an expression, produces an array of element => JSX can render it.
