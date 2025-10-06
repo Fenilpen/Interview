@@ -55,3 +55,8 @@ classname is attribute or props in JSX
 classname looks like an html attribute because we write it inside a tag.
 but under the hood, JSX is just javascript. when babel Transpiles this it becomes:
 
+React.createElement("h1",{classname:"title"},"hello");
+
+so, classname in jsx is a prop not a raw attribute. but react uses it to set the actual HTML
+attribute class on the DOM element.
+
