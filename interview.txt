@@ -49,3 +49,9 @@ Since JSX is ultimately compiled into javascript and we all know that
 "class" and "for" are reseved keywords in javascript. so it would create naming conflicts
 and leads to errors when the JSX  compiled into javascript. that is why classname & htmlFor
 is used as sn alternative to avoid conflicts.
+
+Q7/ 
+classname is attribute or props in JSX
+classname looks like an html attribute because we write it inside a tag.
+but under the hood, JSX is just javascript. when babel Transpiles this it becomes:
+
