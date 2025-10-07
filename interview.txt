@@ -23,6 +23,11 @@ Babel Transpiles JSX -> React.createElement:
 Babel plugin (@babel/preset-react) converts JSX into pure JS, this is transpilation because 
 JSX is just syntactic sugar for function calls not a newlanguage.
 
+for example of babel transpilation
+
+<h1 style={{color:"red"}}>hello this is the example<h1/>       // written by you
+React.createElement("h1",{style:{color:"red"}},hello this is the example)  // transpilation by babel
+
 Babel Transpiles ES6 -> ES5
 if you used modern JS fetures, Babel also converts that into older JavaScript
 for compatibility.
