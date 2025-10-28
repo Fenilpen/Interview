@@ -69,3 +69,14 @@ Q8/
 JSX doesn't support loop like "for", but we can use "map". why?
 "for" is a statement, produces no value => JSX can't directly use it.
 "map" is an expression, produces an array of element => JSX can render it.
+
+09/
+css in react
+// 1. regular css
+// if you import css file in react those styles are global by default
+
+// 2. css module
+// lets you scope css to a component
+
+// 3. inline css
+// you use style prop, which takes a javascript object (not a string)
